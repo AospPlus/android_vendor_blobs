@@ -171,3 +171,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/hammerhead/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/qcom/hammerhead/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
 
+PRODUCT_PACKAGES += \
+    TimeService \
+    shutdownlistener
