@@ -288,6 +288,7 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so:qcom \
     vendor/qcom/shamu/proprietary/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     vendor/qcom/shamu/proprietary/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
+    vendor/qcom/shamu/proprietary/libssd.so:system/vendor/lib/libssd.so:qcom \
     vendor/qcom/shamu/proprietary/libthermalclient.so:system/vendor/lib/libthermalclient.so:qcom \
     vendor/qcom/shamu/proprietary/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
     vendor/qcom/shamu/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
