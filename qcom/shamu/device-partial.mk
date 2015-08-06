@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw:qcom \
     vendor/qcom/shamu/proprietary/flp.conf:system/etc/flp.conf:qcom \
     vendor/qcom/shamu/proprietary/qmi_fw.conf:system/etc/qmi_fw.conf:qcom \
-    vendor/qcom/shamu/proprietary/sap.conf:system/etc/sap.conf:qcom \
     vendor/qcom/shamu/proprietary/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf:qcom \
     vendor/qcom/shamu/proprietary/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf:qcom \
     vendor/qcom/shamu/proprietary/audio.primary.msm8084.so:system/lib/hw/audio.primary.msm8084.so:qcom \
