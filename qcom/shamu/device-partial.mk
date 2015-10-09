@@ -13,13 +13,6 @@
 # limitations under the License.
 
 # Qualcomm blob(s) necessary for Shamu hardware
-PRODUCT_PACKAGES += \
-    TimeService
-
-PRODUCT_PACKAGES += \
-    libtime_genoff
-
-
 PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/bridgemgrd:system/bin/bridgemgrd:qcom \
     vendor/qcom/shamu/proprietary/diag_klog:system/bin/diag_klog:qcom \
@@ -76,14 +69,12 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/libloc_core.so:system/lib/libloc_core.so:qcom \
     vendor/qcom/shamu/proprietary/libloc_eng.so:system/lib/libloc_eng.so:qcom \
     vendor/qcom/shamu/proprietary/libmdmdetect.so:system/lib/libmdmdetect.so:qcom \
-    vendor/qcom/shamu/proprietary/libmemalloc.so:system/lib/libmemalloc.so:qcom \
     vendor/qcom/shamu/proprietary/libmm-qcamera.so:system/lib/libmm-qcamera.so:qcom \
     vendor/qcom/shamu/proprietary/librmnetctl.so:system/lib/librmnetctl.so:qcom \
     vendor/qcom/shamu/proprietary/libtinycompress.so:system/lib/libtinycompress.so:qcom \
     vendor/qcom/shamu/proprietary/libqcomvisualizer.so:system/lib/soundfx/libqcomvisualizer.so:qcom \
     vendor/qcom/shamu/proprietary/libqcomvoiceprocessing.so:system/lib/soundfx/libqcomvoiceprocessing.so:qcom \
     vendor/qcom/shamu/proprietary/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so:qcom \
-    vendor/qcom/shamu/proprietary/gsiff_daemon:system/vendor/bin/gsiff_daemon:qcom \
     vendor/qcom/shamu/proprietary/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw:qcom \
     vendor/qcom/shamu/proprietary/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw:qcom \
     vendor/qcom/shamu/proprietary/adsp.b00:system/vendor/firmware/adsp.b00:qcom \
@@ -287,9 +278,9 @@ PRODUCT_COPY_FILES := \
     vendor/qcom/shamu/proprietary/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so:qcom \
     vendor/qcom/shamu/proprietary/libsensor1.so:system/vendor/lib/libsensor1.so:qcom \
     vendor/qcom/shamu/proprietary/libsensor_reg.so:system/vendor/lib/libsensor_reg.so:qcom \
-    vendor/qcom/shamu/proprietary/libssd.so:system/vendor/lib/libssd.so:qcom \
     vendor/qcom/shamu/proprietary/libthermalclient.so:system/vendor/lib/libthermalclient.so:qcom \
     vendor/qcom/shamu/proprietary/libthermalioctl.so:system/vendor/lib/libthermalioctl.so:qcom \
+    vendor/qcom/shamu/proprietary/libtime_genoff.so:system/vendor/lib/libtime_genoff.so:qcom \
     vendor/qcom/shamu/proprietary/libTimeService.so:system/vendor/lib/libTimeService.so:qcom \
     vendor/qcom/shamu/proprietary/libxml.so:system/vendor/lib/libxml.so:qcom \
 

@@ -18,8 +18,9 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/ramdump:system/bin/ramdump:moto \
     vendor/moto/shamu/proprietary/tcmd_mini:system/bin/tcmd_mini:moto \
     vendor/moto/shamu/proprietary/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb:moto \
-    vendor/moto/shamu/proprietary/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg:moto \
-    vendor/moto/shamu/proprietary/FIT_V15.cfg:system/etc/diag/mdm/FIT_V15.cfg:moto \
+    vendor/moto/shamu/proprietary/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:moto \
+    vendor/moto/shamu/proprietary/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg:moto \
+    vendor/moto/shamu/proprietary/FIT_V16_1.cfg:system/etc/diag/mdm/FIT_V16_1.cfg:moto \
     vendor/moto/shamu/proprietary/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg:moto \
     vendor/moto/shamu/proprietary/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg:moto \
     vendor/moto/shamu/proprietary/vpu.b00:system/etc/firmware/vpu.b00:moto \
@@ -37,45 +38,35 @@ PRODUCT_COPY_FILES := \
     vendor/moto/shamu/proprietary/vpu.b12:system/etc/firmware/vpu.b12:moto \
     vendor/moto/shamu/proprietary/vpu.mbn:system/etc/firmware/vpu.mbn:moto \
     vendor/moto/shamu/proprietary/vpu.mdt:system/etc/firmware/vpu.mdt:moto \
-    vendor/moto/shamu/proprietary/fmas_eq.dat:system/etc/fmas_eq.dat:moto \
     vendor/moto/shamu/proprietary/General_cal.acdb:system/etc/General_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Global_cal.acdb:system/etc/Global_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Handset_cal.acdb:system/etc/Handset_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb:moto \
     vendor/moto/shamu/proprietary/Headset_cal.acdb:system/etc/Headset_cal.acdb:moto \
-    vendor/moto/shamu/proprietary/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml:moto \
     vendor/moto/shamu/proprietary/Speaker_cal.acdb:system/etc/Speaker_cal.acdb:moto \
-    vendor/moto/shamu/proprietary/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar:moto \
     vendor/moto/shamu/proprietary/libadspd-jni.so:system/lib/libadspd-jni.so:moto \
     vendor/moto/shamu/proprietary/libadspd.so:system/lib/libadspd.so:moto \
     vendor/moto/shamu/proprietary/librecoglib.so:system/lib/librecoglib.so:moto \
     vendor/moto/shamu/proprietary/libsupermodel.so:system/lib/libsupermodel.so:moto \
-    vendor/moto/shamu/proprietary/libfmas.so:system/lib/soundfx/libfmas.so:moto \
     vendor/moto/shamu/proprietary/acdb.mbn:system/vendor/firmware/acdb.mbn:moto \
     vendor/moto/shamu/proprietary/atmel-a432-14061601-0102aa-shamu-p1.tdat:system/vendor/firmware/atmel-a432-14061601-0102aa-shamu-p1.tdat:moto \
     vendor/moto/shamu/proprietary/atmel-a432-14103001-0103aa-shamu.tdat:system/vendor/firmware/atmel-a432-14103001-0103aa-shamu.tdat:moto \
-    vendor/moto/shamu/proprietary/left.boost.music.config:system/vendor/firmware/left.boost.music.config:moto \
     vendor/moto/shamu/proprietary/left.boost.music.eq:system/vendor/firmware/left.boost.music.eq:moto \
     vendor/moto/shamu/proprietary/left.boost_music_table.preset:system/vendor/firmware/left.boost_music_table.preset:moto \
     vendor/moto/shamu/proprietary/left.boost_n1b12.patch:system/vendor/firmware/left.boost_n1b12.patch:moto \
     vendor/moto/shamu/proprietary/left.boost_n1c2.patch:system/vendor/firmware/left.boost_n1c2.patch:moto \
-    vendor/moto/shamu/proprietary/left.boost.ringtone.config:system/vendor/firmware/left.boost.ringtone.config:moto \
     vendor/moto/shamu/proprietary/left.boost.ringtone.eq:system/vendor/firmware/left.boost.ringtone.eq:moto \
     vendor/moto/shamu/proprietary/left.boost_ringtone_table.preset:system/vendor/firmware/left.boost_ringtone_table.preset:moto \
     vendor/moto/shamu/proprietary/left.boost.speaker:system/vendor/firmware/left.boost.speaker:moto \
-    vendor/moto/shamu/proprietary/left.boost.voice.config:system/vendor/firmware/left.boost.voice.config:moto \
     vendor/moto/shamu/proprietary/left.boost.voice.eq:system/vendor/firmware/left.boost.voice.eq:moto \
     vendor/moto/shamu/proprietary/left.boost_voice_table.preset:system/vendor/firmware/left.boost_voice_table.preset:moto \
-    vendor/moto/shamu/proprietary/right.boost.music.config:system/vendor/firmware/right.boost.music.config:moto \
     vendor/moto/shamu/proprietary/right.boost.music.eq:system/vendor/firmware/right.boost.music.eq:moto \
     vendor/moto/shamu/proprietary/right.boost_music_table.preset:system/vendor/firmware/right.boost_music_table.preset:moto \
     vendor/moto/shamu/proprietary/right.boost_n1b12.patch:system/vendor/firmware/right.boost_n1b12.patch:moto \
     vendor/moto/shamu/proprietary/right.boost_n1c2.patch:system/vendor/firmware/right.boost_n1c2.patch:moto \
-    vendor/moto/shamu/proprietary/right.boost.ringtone.config:system/vendor/firmware/right.boost.ringtone.config:moto \
     vendor/moto/shamu/proprietary/right.boost.ringtone.eq:system/vendor/firmware/right.boost.ringtone.eq:moto \
     vendor/moto/shamu/proprietary/right.boost_ringtone_table.preset:system/vendor/firmware/right.boost_ringtone_table.preset:moto \
     vendor/moto/shamu/proprietary/right.boost.speaker:system/vendor/firmware/right.boost.speaker:moto \
-    vendor/moto/shamu/proprietary/right.boost.voice.config:system/vendor/firmware/right.boost.voice.config:moto \
     vendor/moto/shamu/proprietary/right.boost.voice.eq:system/vendor/firmware/right.boost.voice.eq:moto \
     vendor/moto/shamu/proprietary/right.boost_voice_table.preset:system/vendor/firmware/right.boost_voice_table.preset:moto \
     vendor/moto/shamu/proprietary/VRGain.bin:system/vendor/firmware/VRGain.bin:moto \
