@@ -1,3 +1,27 @@
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    atfwd \
+    ims \
+    TimeService \
+    VZWAPNLib
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    com.verizon.hardware.telephony.ehrpd \
+    com.verizon.hardware.telephony.lte \
+    com.verizon.ims \
+    rcsimssettings \
+    rcsservice
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    AppDirectedSMSProxy \
+    CNEService \
+    MotoSignatureApp \
+    TriggerEnroll \
+    TriggerTrainingService \
+    VZWAPNService
+
 PRODUCT_PROPERTY_OVERRIDES += \
 	fmas.spkr_6ch=35,20,10 \
 	fmas.spkr_2ch=35,25 \
